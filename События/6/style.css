@@ -1,0 +1,18 @@
+div {
+    height: 65px;
+    width: 190px;
+    background: #2F3F4F;
+    margin: 10px;
+}
+
+span {
+    height: 55px;
+    width: 55px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #E99362;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+/*    display: block;*/
+}

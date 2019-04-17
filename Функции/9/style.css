@@ -1,0 +1,31 @@
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#ok {
+    margin-top: 0px;
+    top: 0px;
+    
+}
+button:hover{
+    background-color: #6542f4;
+}
+    
+div {
+    font-family: verdana;
+    font-size: 26px;
+}
+input{
+    font-family: verdana;
+    font-size: 26px;
+    padding: 5px;
+    margin-top: 5px;
+}

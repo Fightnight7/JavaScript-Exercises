@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="1.js" defer></script>
+</head>
+<body>
+<!--
+    Задание 5
+Пользователь заполняет форму состоящую из фамилии, имени пароля и email. Используя приведенные методы выполните обработку формы состоящую из удаления пробелов до и после введённых слов, пароль не должен быть меньше 5 символов, email должен содержать один символ @ и не содержать пробелов. Если форма заполнена корректно, возвращать true.
+-->
+<p>Введите имя:</p><input type="text" id="name">
+<p>Введите фамилию:</p><input type="text" id="surname">
+<p>Введите электронную почту:</p><input type="email" id="mail">
+<p>Введите пароль:</p><input type="text" id="password" min="5">
+<input type="submit" onclick="f1()">
+<hr>
+<div id="out"></div>
+</body>
+</html>

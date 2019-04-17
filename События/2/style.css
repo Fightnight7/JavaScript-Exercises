@@ -1,0 +1,7 @@
+#block {
+    height: 500px;
+    width: 700px;
+    background-image: url(changi-boardwalk-sunrise-.jpg);
+    background-size: 700px 500px;
+    border: 1px dashed black;
+}

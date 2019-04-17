@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <script src="1.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<!--
+    Задача 7
+Добавьте на страницу таблицу в стандартном оформлении. При клике на таблице добавьте ей класс bordered, при втором клике удалите класс bordered и добавьте класс striped, при третьем клике удалите класс striped и добавьте класс highlight.
+Для увеличения наглядности, подключите фреймворк materialize.
+-->
+<table border="1" onclick="f1()" id="table">
+    <caption>Таблица размеров обуви</caption>
+    <tr>
+        <th>Россия</th>
+        <th>Великобритания</th>
+        <th>Европа</th>
+        <th>Длина ступни, см</th> 
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+        <td>Four</td>
+        <td>Five</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+        <td>Four</td>
+        <td>Five</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+        <td>Four</td>
+        <td>Five</td>
+    </tr>
+    </table>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

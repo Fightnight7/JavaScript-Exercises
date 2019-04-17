@@ -1,0 +1,10 @@
+* {
+    font-family: verdana;
+    font-size: 26px;
+}
+
+button {
+    background-color: forestgreen;
+    margin-left: 15px;
+    border: 0px;
+}

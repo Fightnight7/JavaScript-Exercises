@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="1.js" defer></script>
+</head>
+<body>
+<!--
+    Задача 12
+Магазин предлагает 2 размера гамбургеров:
+маленький (17грн, 250 ккал)
+большой (25грн, 340 ккал)
+Бургер дополняется одной или несколькими начинками (обязательно одна должна быть):
+сыром (+ 4грн, + 25 ккал)
+салатом (+ 5грн, + 5 ккал)
+ветчиной (+ 10грн, + 50 ккал)
+Дополнительно (не обязательно), гамбургер можно дополнить соусами (+5грн, 0 ккал) и полить майонезом (+ 4грн, + 10 ккал).
+Напишите программу, рассчитывающею стоимость и калорийность бургера. 
+Дополнительно: используя localStorage реализуйте просчет среднего чека заказа (сумма всех заказов поделенная на их количество).
+-->
+<div>
+    <p>Выберите размер бургера:</p>
+    <select name="burger" id="burger">
+        <option value="small">Маленький 17 грн.</option>
+        <option value="big">Большой 25 грн.</option>
+    </select>
+    
+    <p>Выберите начинку (минимум 1):</p>
+        <input type="checkbox" id="cheese" name="cheese">
+        <label for="cheese">Сыр + 4грн.</label>
+        <input type="checkbox" id="salad" name="salad">
+        <label for="salad">Салат + 5грн.</label>
+        <input type="checkbox" id="ham" name="ham">
+        <label for="ham">Колбаса + 10грн.</label>
+        
+    <p>Допольнительно полить соусом:</p>
+        <input type="checkbox" id="mustard" name="mustard">
+        <label for="mustard">Горчица + 5грн.</label>
+        <input type="checkbox" id="mayo" name="mayo">
+        <label for="mayo">Майонез + 4грн.</label>
+    
+
+    <button id="order" onclick="f1()">Заказать!</button>
+    <hr>
+    <div id="out1"></div>
+    <div id="out2"></div>
+    <hr>
+    </div>
+    
+    
+    
+    
+    
+<!--
+       <input type="radio" name="burger" value="small" id="small">
+       <label for="small">Маленький 17грн. </label>
+        <input type="radio" name="burger" value="big" id="big">
+       <label for="big">Большой 25грн. </label>
+        <p>Выберите начинку (минимум 1):</p>
+    <select name="sides" id="sides" multiple required>
+        <option value="cheese">Сыр + 4грн.</option>
+        <option value="salad">Салат + 5грн.</option>
+        <option value="ham">Колбаса + 10грн.</option>
+    </select>
+    <p>Допольнительно полить соусом:</p>
+    <select name="souce" id="souce" multiple>
+        <option value="mustard">Горчица + 5грн.</option>
+        <option value="mayo">Майонез + 4грн.</option>
+    </select>
+-->
+    
+
+
+</body>
+</html>

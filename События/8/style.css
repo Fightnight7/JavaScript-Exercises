@@ -1,0 +1,23 @@
+*{
+    margin: 10px;
+    font-family: verdana sans-serif;
+    font-size: 20px;
+/*    border: 1px solid black;*/
+}
+
+#block {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.radio1 {
+    background: orange;
+}
+
+.radio2 {
+    background: yellow;
+}
+
+.radio3 {
+    background: green;
+}

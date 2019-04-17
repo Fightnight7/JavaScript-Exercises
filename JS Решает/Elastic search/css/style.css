@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+.main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.main h1 {
+	text-align: center;
+	margin: 30px;
+}
+
+.main input {
+	width: 80%;
+	border-radius: 3px; 
+	margin: 0 auto;
+	display: block;
+	height: 30px;
+	border: 1px solid silver;
+}
+
+.main input:focus {
+	border: 2px solid green;
+}
+
+.out {
+	width: 70%;
+	margin: 30px 0 0 95px;
+}
+
+.out ul {
+	list-style-type: circle;
+}

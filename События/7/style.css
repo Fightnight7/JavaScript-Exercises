@@ -1,0 +1,17 @@
+/*
+table {
+    border: 5px;
+    background: azure;
+}*/
+
+.bordered {
+    background: orange;
+}
+
+.striped {
+    background: yellow;
+}
+
+.highlight {
+    background: green;
+}

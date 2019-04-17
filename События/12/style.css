@@ -1,0 +1,10 @@
+* {
+    margin: 15px;
+    font-family: verdana sans-serif;
+    font-size: 26px;
+}
+
+div {
+    border: 1px solid black;
+    width: 100px;
+}
